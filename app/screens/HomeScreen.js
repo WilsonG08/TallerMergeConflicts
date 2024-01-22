@@ -21,7 +21,7 @@ export const Home = ({ navigation }) => {
 
             <TouchableOpacity style={styles.boton2}
                 onPress={() => {
-                    navigation.navigate('ProductNav');
+                    navigation.navigate("ProductNavigation");
                 }}
             >
                 <Text style={styles.textoBoton}>PRODUCTOS</Text>
