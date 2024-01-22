@@ -1,11 +1,11 @@
-import {View, Text, StyleSheet, Button} from 'react-native'
+import { View, Text, StyleSheet, Button } from 'react-native'
 
-export const Contacts = ({navigation}) => {
+export const Contacts = ({ navigation }) => {
     return <View style={styles.container}>
         <Text>Estoy en contact</Text>
         <Button
             title='HOME'
-            onPress={()=>{
+            onPress={() => {
                 navigation.navigate('WellcomeNav');
             }}
         />
@@ -15,10 +15,9 @@ export const Contacts = ({navigation}) => {
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1,
-      backgroundColor: '#fff',
-      alignItems: 'center',
-      justifyContent: 'center',
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
     },
-  });
-  
+});

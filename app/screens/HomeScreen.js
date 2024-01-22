@@ -11,7 +11,7 @@ export const Home = ({ navigation }) => {
 
             <TouchableOpacity style={styles.boton1}
                 onPress={() => {
-                    navigation.navigate("CallNumber");
+                    navigation.navigate("PhoneNumberNav");
                 }}
             >
                 <Text style={styles.textoBoton}>CONTACTS</Text>
