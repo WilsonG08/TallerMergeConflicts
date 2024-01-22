@@ -13,8 +13,8 @@ export default function App() {
     <NavigationContainer>
 
       <Stack.Navigator>
-        <Stack.Screen name='Welcome_Juan' component={Home} />
-        <Stack.Screen name='CallNumber' component={Contacts} />
+        <Stack.Screen name='WellcomeNav' component={Home} />
+        <Stack.Screen name='PhoneNumberNav' component={Contacts} />
         <Stack.Screen name='ProductNavigation' component={Product}/>
 
 
